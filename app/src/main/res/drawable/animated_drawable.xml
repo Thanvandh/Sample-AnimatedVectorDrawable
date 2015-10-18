@@ -1,0 +1,30 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/drawable">
+
+    <target
+        android:animation="@anim/clock"
+        android:name="hand_b"/>
+    <target
+        android:animation="@anim/anti_clock"
+        android:name="hand_f"/>
+    <target
+        android:animation="@anim/clock"
+        android:name="leg_b"/>
+    <target
+        android:animation="@anim/anti_clock"
+        android:name="leg_f"/>
+    <target
+        android:animation="@anim/clock_quick"
+        android:name="leg_b_g"/>
+    <target
+        android:animation="@anim/clock_quick"
+        android:name="leg_f_g"/>
+    <target
+        android:animation="@anim/anti_clock_quick"
+        android:name="leg_f_gg"/>
+    <target
+        android:animation="@anim/anti_clock_quick"
+        android:name="leg_b_gg"/>
+
+</animated-vector>
